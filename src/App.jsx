@@ -1,5 +1,13 @@
+import Login from "./components/Login";
+import React, { useEffect } from "react"; // could also import useEffect directly
+import apiService from "./services/api.service";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <main className="flex justify-center">
+      <Login />
+    </main>
+  );
 }
 
 export default App;
