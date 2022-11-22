@@ -1,6 +1,6 @@
 // import Login from "./components/Login";
-import React, { useEffect } from "react"; // could also import useEffect directly
-import apiService from "./services/api.service";
+// import React, { useEffect } from "react"; // could also import useEffect directly
+// import apiService from "./services/api.service";
 import useFetch from "./hooks/useFetch";
 
 function App() {
