@@ -6,9 +6,11 @@ import useFetch from "./hooks/useFetch";
 function App() {
   const [users, setUsers] = useFetch();
 
+  /*
   useEffect(() => {
     apiService.getAllUsers().then((users) => setUsers(users));
   }, []);
+  */
 
   return (
     <>
