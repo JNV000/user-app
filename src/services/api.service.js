@@ -1,7 +1,7 @@
 const BASE_URL = "http://localhost:3001/users";
 
 // any function/method marked as 'async' will return a Promise
-/*
+
 export default {
   async getAllUsers() {
     // this is a promis that wraps the raw Response object
@@ -10,8 +10,8 @@ export default {
     return response.json();
   },
 };
-*/
 
+/*
 export default {
   async login(user, pass) {
     const response = await fetch(BASE_URL);
@@ -24,3 +24,4 @@ export default {
     return usersData.find((u) => u.username === user && u.password === pass);
   },
 };
+*/
