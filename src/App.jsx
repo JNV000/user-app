@@ -6,9 +6,11 @@ import useFetch from "./hooks/useFetch";
 function App() {
   const [users, setUsers, getUsers] = useFetch();
 
+  // useEffect, called once to get users with the useFetch hook
   useEffect(() => {
     getUsers();
   }, []);
+  // dependency array prevents endless rerenders of page.
 
   return (
     <>
