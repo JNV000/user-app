@@ -1,16 +1,14 @@
 // import Login from "./components/Login";
-// import React, { useEffect } from "react"; // could also import useEffect directly
+import React, { useEffect } from "react"; // could also import useEffect directly
 // import apiService from "./services/api.service";
 import useFetch from "./hooks/useFetch";
 
 function App() {
-  const [users, setUsers] = useFetch();
+  const [users, setUsers, getUsers] = useFetch();
 
-  /*
   useEffect(() => {
-    apiService.getAllUsers().then((users) => setUsers(users));
+    getUsers();
   }, []);
-  */
 
   return (
     <>
